@@ -1,0 +1,251 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
+}
+/* ---------------------------------------------------trang chủ */
+.header_color {
+    background-color: #d9c4fc;
+    width: 100%;
+    height: 85px;
+}
+
+.chucnang {
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.chucnang:hover {
+    background-color: black;
+    color: white;
+}
+
+.danhmuc {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    transition: 0.5s;
+}
+
+.danhmuc:hover {
+    background-color: #230556;
+    color: white;
+}
+
+.danhmuc_title {
+    color: white;
+    font-weight: bold;
+    background-color: #230556;
+    transition: 0.5s;
+}
+.info_trasua{
+    transition: 0.3s;
+}
+.info_trasua:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;
+}
+.ten_nuoc{
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 4px solid #eb3007;
+}
+
+/*  */
+/*------------------------------------------------- trang giỏ hàng  */
+.btn_thanhtoan {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.btn_thanhtoan:hover {
+    background-color: #eb3007;
+    border: none;
+}
+.btn_lichsudonhang {
+    background-color: #007d38;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.btn_lichsudonhang:hover {
+    background-color: #4e0877;
+    border: none;
+}
+
+/*  */
+/* -----------------------------------------------------trang đăng ký, đăng nhập */
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+
+.login-block {
+    background: #230556;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #370886, #230556);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #370886, #230556);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    float: left;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.banner-sec {
+    background: url(https://png.pngtree.com/png-clipart/20190516/original/pngtree-drink-pearl-milk-tea-cold-drink-drink-png-image_3811359.jpg);
+    background-size: contain;
+    min-height: 10px;
+    border-radius: 0 10px 10px 0;
+    padding: 0;
+}
+
+.container1 {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 15px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-inner {
+    border-radius: 0 10px 10px 0;
+}
+
+.carousel-caption {
+    text-align: left;
+    left: 5%;
+}
+
+.login-sec {
+    padding: 50px 30px;
+    position: relative;
+}
+
+.login-sec .copy-text {
+    position: absolute;
+    width: 80%;
+    bottom: 20px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.login-sec .copy-text i {
+    color: #FEB58A;
+}
+
+.login-sec .copy-text a {
+    color: #E36262;
+}
+
+.login-sec h2 {
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-size: 30px;
+    color: #DE6262;
+}
+
+.login-sec h2:after {
+    content: " ";
+    width: 100px;
+    height: 5px;
+    background: #FEB58A;
+    display: block;
+    margin-top: 20px;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.btn-login {
+    background: #DE6262;
+    color: #fff;
+    font-weight: 600;
+}
+
+.banner-text {
+    width: 70%;
+    position: absolute;
+    bottom: 40px;
+    padding-left: 20px;
+}
+
+.banner-text h2 {
+    color: #fff;
+    font-weight: 600;
+}
+
+.banner-text h2:after {
+    content: " ";
+    width: 100px;
+    height: 5px;
+    background: #FFF;
+    display: block;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.banner-text p {
+    color: #fff;
+}
+
+
+
+/*  */
+/* --------------------------------------trang lịch sử đơn hàng */
+.chitiet_donhang{
+    font-weight: bold; 
+    border: 1px solid #038018;
+    color: #038018;
+}
+.chitiet_donhang:hover{
+    color: white;
+    background-color: #038018;
+}
+
+
+
+
+
+
+/*  */
+
+/*------------------------------ trang chi tiết lịch sử đơn hàng */
+.dang-xu-ly{
+    color: white;
+    background-color: #ee3500;
+    font-weight: bold; 
+}
+.dang-xu-ly:hover{
+    font-weight: bold; 
+    border: 1px solid white;
+    color: #ee3500;
+    background-color: white;
+}
+.dang-van_chuyen{
+    color: white;
+    background-color: #007d38;
+    font-weight: bold; 
+}
+.dang-van_chuyen:hover{
+    font-weight: bold; 
+    border: 1px solid white;
+    color: #007d38;
+    background-color: white;
+}
+
+
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+

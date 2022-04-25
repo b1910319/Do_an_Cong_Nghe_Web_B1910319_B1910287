@@ -22,7 +22,7 @@
                     <div class="col-4">
                         <nav class="navbar navbar-light">
                             <div style="width: 100%;">
-                                <form class="d-flex" action="" method="POST">
+                                <form class="d-flex" action="timDonHang.php" method="POST">
                                     <input name="tukhoa" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                                     <button class="btn btn-outline-success" type="submit">Search</button>
                                 </form>

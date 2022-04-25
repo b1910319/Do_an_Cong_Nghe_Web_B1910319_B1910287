@@ -22,11 +22,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-10">
-                        <button type="button" class="btn btn-warning">Thời gian thống kê</button>
+                        <button type="button" class="btn btn-warning" style="font-weight: bold;">Thời gian thống kê</button>
                         <form action="thongKe.php" method="post">
                             <div class="row mt-3">
                                 <div class="col-2">
-                                    <button type="button" class="btn btn-success" style="width: 100%;">Từ ngày</button>
+                                    <button type="button" class="btn btn-success" style="width: 100%; font-weight: bold;">Từ ngày</button>
                                 </div>
                                 <div class="col-2">
                                     <select class="form-select" aria-label="Default select example" name="thongke_tu" style="width: 100%;">
@@ -43,7 +43,7 @@
                                     </select>
                                 </div>
                                 <div class="col-2">
-                                    <button type="button" class="btn btn-success" style="width: 100%;">Đến ngày</button>
+                                    <button type="button" class="btn btn-success" style="width: 100%; font-weight: bold;">Đến ngày</button>
                                 </div>
                                 <div class="col-2">
                                     <select class="form-select" aria-label="Default select example" name="thongke_den" style="width: 100%;">
@@ -60,7 +60,7 @@
                                     </select>
                                 </div>
                                 <div class="col-2">
-                                    <button type="submit" class="btn btn-danger" style="width: 100%;" name="lietke">Liệt kê</button>
+                                    <button type="submit" class="btn btn-danger" style="width: 100%; font-weight: bold;" name="lietke">Liệt kê</button>
                                 </div>
                             </div>
                         </form>

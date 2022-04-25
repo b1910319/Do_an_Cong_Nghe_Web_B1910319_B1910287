@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,7 +23,7 @@
 <body>
     <!-- form đăng nhập của admin  -->
     <div class="container">
-        <section id="content1">
+        <section id="content">
             <form action="dangNhap.php" method="POST">
                 <h1>Đăng nhập</h1>
                 <span style="color: #eb3007; font-weight: bold; ">
